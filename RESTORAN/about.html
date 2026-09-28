@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="restaurace/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="restaurace/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="restaurace/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="restaurace/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="restaurace/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="restaurace/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand d-flex align-items-center p-0">
+                    <i class="fa fa-utensils me-2 text-primary"></i>
+                    <h1 class="text-primary m-0">HUA LONG ZHAI</h1>
+                    <img src="restaurace/img/logo.jpeg" alt="Logo" style="width: 40px; height: 40px; object-fit: cover; margin-left: 10px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Domů</a>
+                        <a href="about.html" class="nav-item nav-link">O nás</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Služby</a> -->
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Stránky</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary py-2 px-4">Rezervace</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Vítejte na našich stránkách</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Domů</a></li>
+                            <li class="breadcrumb-item"><a href="about.html">O nás</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a href="contact.html">Kontakt</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="restaurace/img/about-1.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="restaurace/img/about-2.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="restaurace/img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="restaurace/img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">O nás</h5>
+                        <h1 class="mb-4">Vítejte v <i class="fa fa-utensils text-primary me-2"></i>Hua Lon Zhai</h1>
+                        <p class="mb-4">Vítejte v naší čínské restauraci, kde se snoubí láska k tradičním pokrmům a duch bojového umění! Naše restaurace, založená zkušenou trenérkou kung fu, nabízí autentické chutě Číny připravované s vášní a respektem k tradicím. Přijďte ochutnat poctivé recepty, které vás zavedou do samotného srdce Číny – od křupavých kuřecích kousků přes jemné knedlíčky až po aromatické polévky, jež posílí vaše tělo i mysl. U nás zažijete více než jen jídlo, je to cesta plná chutí a inspirace bojovým uměním.</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">40</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Let</p>
+                                        <h6 class="text-uppercase mb-0">Zkušeností</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">2017</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Otevřeno</p>
+                                        <h6 class="text-uppercase mb-0">Od roku</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="restaurace/img/carousel1.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 1" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">Tradiční kuchyně</h5>
+                                <p>Porkmy které vás povedou k srdci Číny.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="restaurace/img/carousel2.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 2" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">Unique Experience</h5>
+                                <p>Porkmy které vás povedou k srdci Číny.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="img/carousel3.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 3" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">A Culinary Journey</h5>
+                                <p>Indulge in dishes that take you straight to the heart of China.</p>
+                            </div>
+                        </div> -->
+                        <div class="carousel-item">
+                            <img src="restaurace/img/carousel4.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 4" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">A Culinary Journey</h5>
+                                <p>Porkmy které vás povedou k srdci Číny.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="img/carousel5.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 5" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">A Culinary Journey</h5>
+                                <p>Indulge in dishes that take you straight to the heart of China.</p>
+                            </div>
+                        </div> -->
+                        <div class="carousel-item">
+                            <img src="restaurace/img/carousel6.jpeg" class="d-block w-100 carousel-image" alt="Carousel Image 5" loading="lazy">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-light">A Culinary Journey</h5>
+                                <p>Porkmy které vás povedou k srdci Číny.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Restaurace</h4>
+                        <a class="btn btn-link" href="about.html">O nás</a>
+                        <a class="btn btn-link" href="contact.html">Kontaktujte nás</a>
+                        <a class="btn btn-link" href="contact.html">Rezervace</a>
+                        <!-- <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a> -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Kontakt</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Oblouková 944/36, Praha 10 Vršovice,
+                            101 00</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+420 608 938 888</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>zhaihua48@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/HuaLongZhai"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Otevírací doba
+                        </h4>
+                        <h5 class="text-light fw-normal">Pondělí - Pátek</h5>
+                        <p>11:00 - 20:00</p>
+                        <h5 class="text-light fw-normal">Sobota - Neděle</h5>
+                        <p>Zavřeno</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html" class="navbar-brand p-0">
+                            <img src="restaurace/img/logo.jpeg" alt="Logo" style="width: 160px;">
+                        </a>
+                    </div>        
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Možnosti platby</h4>
+                        <p class="mb-2"><i class="fa fa-money-bill-wave me-3"></i>Hotově</p>
+                        <p class="mb-2"><i class="fa fa-credit-card me-3"></i>Kartou</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom"
+                                href="https://ares.gov.cz/ekonomicke-subjekty/res/08256420">Hua Long Zhai</a>, All Right
+                            Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed and developed <a class="border-bottom" href="https://github.com/ShadowHunter96">Dai Gia
+                                Vu</a><br><br>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="restaurace/lib/wow/wow.min.js"></script>
+    <script src="restaurace/lib/easing/easing.min.js"></script>
+    <script src="restaurace/lib/waypoints/waypoints.min.js"></script>
+    <script src="restaurace/lib/counterup/counterup.min.js"></script>
+    <script src="restaurace/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="restaurace/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="restaurace/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="restaurace/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="restaurace/js/main.js"></script>
+</body>
+
+</html>
